@@ -5,14 +5,11 @@
 ###########################################
 # Install Zabbix agent on Windows
 # Created by Team - Onsight Solutons
-# Last updated 
+# Last updated - 26-May-2020
 # Installs Zabbix Agent 5.0
 
 
 $version500ssl = "https://codeload.github.com/onteq-network/monitoring-agent/zip/master"
-
-
-# https://drive.google.com/open?id=1IbWJjLpJ0-X3mIjcVyvf0E3zcM1zX3vc
 
 #Gets the server host name
 $serverHostname =  Invoke-Command -ScriptBlock {hostname}
